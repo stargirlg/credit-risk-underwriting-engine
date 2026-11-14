@@ -1,0 +1,12 @@
+{
+  "name": "Credit Risk Underwriting Engine",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt && python train_model.py",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "FastAPI & Gradio Underwriting Server",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

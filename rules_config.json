@@ -1,0 +1,35 @@
+{
+  "required_documents": 12,
+  "min_applicant_age": 21,
+  "max_applicant_age": 60,
+  "min_cibil_cutoff": 650,
+  "max_foir_percent": 55.0,
+  "pd_thresholds": {
+    "auto_approve_max": 0.12,
+    "manual_review_max": 0.35
+  },
+  "state_stamp_duty_rate": {
+    "Maharashtra": 0.005,
+    "Karnataka": 0.003,
+    "Delhi": 0.002,
+    "DEFAULT": 0.004
+  },
+  "agreement_fee_flat": 1500.0,
+  "schemes": {
+    "STANDARD": {
+      "base_interest_rate": 12.5,
+      "processing_fee_pct": 0.02,
+      "discount_pct": 0.0
+    },
+    "FESTIVE_ZERO_PF": {
+      "base_interest_rate": 11.75,
+      "processing_fee_pct": 0.0,
+      "discount_pct": 0.5
+    },
+    "SALARIED_PRIME": {
+      "base_interest_rate": 10.9,
+      "processing_fee_pct": 0.01,
+      "discount_pct": 0.25
+    }
+  }
+}
