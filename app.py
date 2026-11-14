@@ -199,7 +199,7 @@ def run_2000_case_simulation():
         f"- **Auto-Declined (High Risk Ceiling):** `{dec}` cases\n"
         f"- **Analyst Workbench Overload Reduction:** **`{cleared_pct:.1f}%`** of files resolved automatically"
     )
-    exceptions_only = df_out[df_out["Decision"] == "EXCEPTION_REVIEW"].head(20)
+    exceptions_only = df_out[df_out["Decision"] == "EXCEPTION_REVIEW"].head(200)
     return summary_md, exceptions_only
 
 
